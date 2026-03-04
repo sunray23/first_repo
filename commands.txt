@@ -1,1 +1,35 @@
 git clone <repo URL> <destination directory>
+git commit -m "first commit"
+
+$ git commit -m "first commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+
+ git config --local user.email "rbf2006@gmail.com"
+
+$ git commit -m "first commit"
+[main 421a21d] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 commands.txt
+
+$ git push origin main
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 325 bytes | 325.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/sunray23/first_repo.git
+   09f746b..421a21d  main -> main
+
